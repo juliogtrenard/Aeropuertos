@@ -8,4 +8,6 @@ module es.juliogtrenard.aeropuertos {
     exports es.juliogtrenard.aeropuertos;
     exports es.juliogtrenard.aeropuertos.controladores;
     opens es.juliogtrenard.aeropuertos.controladores to javafx.fxml;
+    exports es.juliogtrenard.aeropuertos.modelos;
+    opens es.juliogtrenard.aeropuertos.modelos to javafx.fxml;
 }
